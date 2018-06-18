@@ -6,6 +6,36 @@ Author URI:
 Description: Tema para Blog de Viajes con Bootstrap 4 y SASS
 Version: 1.0
 */
-body{
-  a:red;
+$primary-color:#008fd1;
+$secondary-color: darken($primary-color,10%);
+
+
+
+/*--------Bootstrap Styles-------*/
+.bg-primary{
+  background-color: $primary-color !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------Header---------*/
+header{
+  &.site-header{
+    padding-top: 20px;
+  }
+  a{
+    color:#fff;
+    &:hover{
+      color:#fff;
+      
+    }
+  }
 }
